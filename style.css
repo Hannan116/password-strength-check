@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#password-container {
+    text-align: center;
+}
+
+#password-strength {
+    margin-top: 10px;
+}
+
+#password {
+    padding: 10px;
+}
+
+.weak {
+    color: red;
+}
+
+.strong {
+    color: green;
+}
+
+/* Added focus styling */
+#password:focus {
+    border: 2px solid dodgerblue;
+    outline: none;
+}
